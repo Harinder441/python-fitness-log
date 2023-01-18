@@ -4,8 +4,8 @@ WEIGHT_KG = 60
 HEIGHT_CM = 160
 AGE = 24
 
-API_ID = "f6bef9d0"
-API_KEY = "34e6d52d10a05d02d2b3365f65add9e9"
+API_ID = YOUR_ID
+API_KEY = YOUR_API_KEY
 
 
 def get_calories_data(query="i ran 2 km today") -> list:
