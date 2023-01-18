@@ -1,6 +1,6 @@
 import requests as req
 import os
-END_POINT = "https://api.sheety.co/e634a57692dcc2c2a245e9c85c0b3389/workoutApp/workouts"
+END_POINT = f"https://api.sheety.co/{YOUR_ID}/workoutApp/workouts"
 MY_TOKEN = os.environ.get("SHEETY_TOKEN")
 
 def add_row(data: dict) -> int:
